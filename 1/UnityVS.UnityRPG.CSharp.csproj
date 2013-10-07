@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE5C779C-6F0F-9F16-66FA-F055E83FF9F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\BindingBehaviour.cs" />
+    <Compile Include="Assets\PopupAttribute.cs" />
+    <Compile Include="Assets\RPG engine\AnimatedSprite.cs" />
+    <Compile Include="Assets\RPG engine\AnimationSheet.cs" />
+    <Compile Include="Assets\RPG engine\CharacterSprite.cs" />
+    <Compile Include="Assets\RPG engine\CharacterSteeringController.cs" />
+    <Compile Include="Assets\RPG engine\FixedSprite.cs" />
+    <Compile Include="Assets\RPG engine\GeometryExtensions.cs" />
+    <Compile Include="Assets\RPG engine\MapOverlays.cs" />
+    <Compile Include="Assets\RPG engine\MapSector.cs" />
+    <Compile Include="Assets\RPG engine\Path.cs" />
+    <Compile Include="Assets\RPG engine\PathPlanner.cs" />
+    <Compile Include="Assets\RPG engine\RowAnimationSheet.cs" />
+    <Compile Include="Assets\RPG engine\SequenceExtensions.cs" />
+    <Compile Include="Assets\RPG engine\Sprite.cs" />
+    <Compile Include="Assets\RPG engine\SpriteAnimation.cs" />
+    <Compile Include="Assets\RPG engine\SpriteKeyboardController.cs" />
+    <Compile Include="Assets\RPG engine\SpriteObject.cs" />
+    <Compile Include="Assets\RPG engine\SpriteScene.cs" />
+    <Compile Include="Assets\RPG engine\SpriteSheet.cs" />
+    <Compile Include="Assets\RPG engine\Tile.cs" />
+    <Compile Include="Assets\RPG engine\TileMap.cs" />
+    <Compile Include="Assets\RPG engine\TilePosition.cs" />
+    <Compile Include="Assets\RPG engine\TileRect.cs" />
+    <Compile Include="Assets\RPG engine\TileSet.cs" />
+    <Compile Include="Assets\RPG engine\TileSprite.cs" />
+    <Compile Include="Assets\RPG engine\TileType.cs" />
+    <Compile Include="Assets\Sims\Advertisement.cs" />
+    <Compile Include="Assets\Sims\Need.cs" />
+    <Compile Include="Assets\Sims\SimController.cs" />
+    <Compile Include="Assets\Sims\SimpleAdvertisement.cs" />
+    <Compile Include="Assets\Tests\Wander.cs" />
+    <None Include="Assets\Credits.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>

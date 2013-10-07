@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2053AA52-9BD7-9711-81A1-353CE4BF990B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_1;UNITY_4_2;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BindingBehaviour.cs" />
+     <Compile Include="Assets\PopupAttribute.cs" />
+     <Compile Include="Assets\RPG engine\AnimatedSprite.cs" />
+     <Compile Include="Assets\RPG engine\AnimationSheet.cs" />
+     <Compile Include="Assets\RPG engine\CharacterSprite.cs" />
+     <Compile Include="Assets\RPG engine\CharacterSteeringController.cs" />
+     <Compile Include="Assets\RPG engine\FixedSprite.cs" />
+     <Compile Include="Assets\RPG engine\GeometryExtensions.cs" />
+     <Compile Include="Assets\RPG engine\MapOverlays.cs" />
+     <Compile Include="Assets\RPG engine\MapSector.cs" />
+     <Compile Include="Assets\RPG engine\Path.cs" />
+     <Compile Include="Assets\RPG engine\PathPlanner.cs" />
+     <Compile Include="Assets\RPG engine\RowAnimationSheet.cs" />
+     <Compile Include="Assets\RPG engine\SequenceExtensions.cs" />
+     <Compile Include="Assets\RPG engine\Sprite.cs" />
+     <Compile Include="Assets\RPG engine\SpriteAnimation.cs" />
+     <Compile Include="Assets\RPG engine\SpriteKeyboardController.cs" />
+     <Compile Include="Assets\RPG engine\SpriteObject.cs" />
+     <Compile Include="Assets\RPG engine\SpriteScene.cs" />
+     <Compile Include="Assets\RPG engine\SpriteSheet.cs" />
+     <Compile Include="Assets\RPG engine\Tile.cs" />
+     <Compile Include="Assets\RPG engine\TileMap.cs" />
+     <Compile Include="Assets\RPG engine\TilePosition.cs" />
+     <Compile Include="Assets\RPG engine\TileRect.cs" />
+     <Compile Include="Assets\RPG engine\TileSet.cs" />
+     <Compile Include="Assets\RPG engine\TileSprite.cs" />
+     <Compile Include="Assets\RPG engine\TileType.cs" />
+     <Compile Include="Assets\Sims\Advertisement.cs" />
+     <Compile Include="Assets\Sims\Need.cs" />
+     <Compile Include="Assets\Sims\SimController.cs" />
+     <Compile Include="Assets\Sims\SimpleAdvertisement.cs" />
+     <Compile Include="Assets\Tests\Wander.cs" />
+     <None Include="Assets\Credits.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

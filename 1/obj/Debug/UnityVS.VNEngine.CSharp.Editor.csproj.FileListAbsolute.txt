@@ -1,0 +1,10 @@
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\Assembly-CSharp-Editor.dll
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\Assembly-CSharp-Editor.pdb
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\SyntaxTree.VisualStudio.Unity.Bridge.dll
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\SyntaxTree.VisualStudio.Unity.Messaging.dll
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\UnityEditor.dll
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\UnityEngine.dll
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+\\psf\Home\Documents\VNEngine\obj\Debug\UnityVS.VNEngine.CSharp.Editor.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\VNEngine\obj\Debug\Assembly-CSharp-Editor.dll
+\\psf\Home\Documents\VNEngine\obj\Debug\Assembly-CSharp-Editor.pdb

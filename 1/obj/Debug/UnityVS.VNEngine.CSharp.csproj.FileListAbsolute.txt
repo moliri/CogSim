@@ -1,0 +1,7 @@
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\UnityEngine.dll
+\\psf\Home\Documents\VNEngine\obj\Debug\UnityVS.VNEngine.CSharp.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\VNEngine\obj\Debug\Assembly-CSharp.dll
+\\psf\Home\Documents\VNEngine\obj\Debug\Assembly-CSharp.pdb
+\\psf\Home\Documents\VNEngine\Temp\UnityVS_bin\Debug\UnityEditor.dll
